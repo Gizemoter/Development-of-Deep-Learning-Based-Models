@@ -17,3 +17,12 @@ Mdl= fitcnb(trainingFeatures, y_train)
 predicted = predict(Mdl, testFeatures);
 [acc_cnb,precision_cnb,recall_cnb,f1_cnb]=calculatemetrics(y_test,predicted);
 [kappa_cnb]=kappa(y_test,predicted);
+
+%bagging
+rng('default'); % For reproducibility
+Mdl = TreeBagger(50,trainingFeatures,y_train,'Method','classification','NumPredictorsToSample',75);
+predicted = predict(Mdl, testFeatures);
+predicted = str2double(predicted);
+[acc_bagger,precision_bagger,recall_bagger,f1_bagger]=calculatemetrics(y_test,predicted);
+[kappa_bagger]=kappa(y_test,predicted);
+
