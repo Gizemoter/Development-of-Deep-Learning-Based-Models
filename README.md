@@ -14,6 +14,6 @@ Ancak diğer mimarilerde de benzer kod dizini olup kullanılan mimarilerin özel
 Step_2 file  : 2. Aşama olan “NCA” kullanılarak öznitelik seçimi yapılmıştır. (Feature Selection with NCA)
 Ancak diğer mimarilerde de benzer kod dizini olup kullanılan mimarinin “öznitelik çıkarımı” alınmalıdır.
 
-Step_3 file  : Sınıflandırma algoritmaları vardır. Ancak öncesinde "kappa"ve "calculatemetrics" fonksiyonları tanımlanmalıdır. (Classification with SVM, Naive Bayes, KNN)
+Step_3 file  : Sınıflandırma algoritmaları vardır. Ancak öncesinde "kappa"ve "calculatemetrics" fonksiyonları tanımlanmalıdır. (Classification with SVM, Naive Bayes, KNN, Bagging)
 
 Bu çalışma bir çok derin evrişimli sinir ağları ile denenmiş olup genel olarak en iyi sonuçlar SqueezeNet ve SVM konbinasyonu ile sağlanmıştır. (The best results in the study were obtained with SqueezeNet and SVM.)
