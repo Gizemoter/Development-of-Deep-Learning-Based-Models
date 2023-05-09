@@ -17,3 +17,6 @@ Ancak diğer mimarilerde de benzer kod dizini olup kullanılan mimarinin “özn
 Step_3 file  : Sınıflandırma algoritmaları vardır. Ancak öncesinde "kappa"ve "calculatemetrics" fonksiyonları tanımlanmalıdır. (Classification with SVM, Naive Bayes, KNN, Bagging)
 
 Bu çalışma bir çok derin evrişimli sinir ağları ile denenmiş olup genel olarak en iyi sonuçlar SqueezeNet ve SVM konbinasyonu ile sağlanmıştır. (The best results in the study were obtained with SqueezeNet and SVM.)
+ Daha fazla detay için tezime göz atabilirsiniz.
+ You can review the thesis.
+ https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=G_oJ1rKE4SgJUkomyAKpR_zrXgN-O4Qk7pM8gXIhQFEI_8br9kiu0gkddbNxauoK
